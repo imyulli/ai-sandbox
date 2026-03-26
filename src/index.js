@@ -36,7 +36,7 @@ function sumOfPrimes(n)  {
 
 
 function toTitleCase(input) {
-    return str
+    return input
         .toLowerCase()
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
