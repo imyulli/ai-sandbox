@@ -1,5 +1,5 @@
 
-function groupAnagrams(strs) {
+function groupAnagrams(words) {
     const map = {};
 
     for (let word of words) {
