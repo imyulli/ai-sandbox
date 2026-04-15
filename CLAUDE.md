@@ -41,6 +41,10 @@ All three must be exported from `src/index.js`:
 | `toTitleCase` | `toTitleCase(input)` | Capitalize first letter of each word; preserve multiple spaces |
 | `groupAnagrams` | `groupAnagrams(words)` | Group string array by anagram sets; return array of arrays |
 
+## Styling
+
+For all new CSS, prefer Tailwind CSS utility classes over custom CSS.
+
 ## Test Reporter
 
 `npm test` runs Jest with both the default console reporter and `jest-junit`. JUnit XML is written to `test-results/junit.xml` (directory created automatically). The `junit.xml` in the repo root is a stale artifact — the canonical output path is `test-results/junit.xml`.
